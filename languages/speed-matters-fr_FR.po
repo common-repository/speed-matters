@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Speed matters\n"
+"POT-Creation-Date: 2020-06-09 20:50+0200\n"
+"PO-Revision-Date: 2020-06-09 20:54+0200\n"
+"Last-Translator: Carl Conrad <carl@koffeeware.com>\n"
+"Language-Team: Carl Conrad <carl@koffeeware.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: speed-matters.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: old_settings.php:10 old_settings.php:20 old_settings.php:30 settings.php:20
+#: settings.php:27
+msgid "Speed matters options"
+msgstr "Options de Speed matters"
+
+#: old_settings.php:15
+msgid "Speed matters Network Options"
+msgstr "Options réseau de Speed matters"
+
+#. Plugin Name of the plugin/theme
+#: old_settings.php:20 settings.php:20
+msgid "Speed matters"
+msgstr "Speed matters"
+
+#: old_settings.php:31 settings.php:53
+msgid "Remove jQuery migrate"
+msgstr "Supprimer jQuery migrate"
+
+#: settings.php:28
+msgid "Server side improvements"
+msgstr "Améliorations côté serveur"
+
+#: settings.php:30
+msgid "Your server runs PHP verion:"
+msgstr "Votre serveur fonctionne sous PHP version :"
+
+#: settings.php:33 settings.php:36
+msgid ""
+"Your version of PHP is outdated. It is not supported any more and should be "
+"updated. You will also experience a significant speed improvement."
+msgstr ""
+"Votre version de PHP est dépassée. Il n’est plus pris en charge et devrait "
+"être mis à jour. Vous bénéficierez également d’une amélioration de "
+"performance significative."
+
+#: settings.php:38
+msgid ""
+"Your version of PHP is outdated and should be updated. You will also "
+"experience a speed improvement."
+msgstr ""
+"Votre version de PHP est désuète et doit être mise à jour. Vous bénéficierez "
+"également d’une amélioration de performance."
+
+#: settings.php:40
+msgid "Your version of PHP is up-to-date."
+msgstr "Votre version de PHP est à jour."
+
+#: settings.php:43
+msgid "Bandwidth usage improvements"
+msgstr "Améliorations de l’utilisation de la bande passante"
+
+#: settings.php:44
+msgid ""
+"Changing these settings may alter the behaviour of your WordPress setup. "
+"Make sure to understand the consequences and test thoroughly."
+msgstr ""
+"La modification de ces paramètres peut modifier le comportement de votre "
+"configuration WordPress. Assurez-vous de bien comprendre les conséquences et "
+"de bien tester."
+
+#: settings.php:50
+msgid ""
+"Update jQuery 1.2.4 to jQuery 3.5.1 (drops IE 6–8 support for performance "
+"improvements and reduction in filesize)"
+msgstr ""
+"Mise à jour jQuery 1.2.4 à jQuery 3.5.1 (suppression de la prise en charge "
+"d’IE 6-8 pour l’amélioration des performances et la réduction des fichiers)"
+
+#: settings.php:56
+msgid "Remove WP Embed"
+msgstr "Supprimer WP Embed"
+
+#: settings.php:59
+msgid "Disable emojis"
+msgstr "Désactiver les Emojis"
+
+#: settings.php:62
+msgid ""
+"Disable the WordPress heartbeat (leave unchecked in case of multiple "
+"contributors)"
+msgstr ""
+"Désactiver le cadenceur WordPress (laisser non sélectionné en cas de "
+"contributeurs multiples)"
+
+#: settings.php:67
+msgid "Database improvements"
+msgstr "Améliorations apportées aux bases de données"
+
+#: settings.php:108
+#, php-format
+msgid "Database size before cleanup: %s  Mbytes"
+msgstr "Taille de la base de données avant nettoyage : %s Moctets"
+
+#: settings.php:151
+#, php-format
+msgid "Database size after cleanup: %s  Mbytes"
+msgstr "Taille de la base de données après nettoyage : %s Moctets"
+
+#: settings.php:161
+msgid "All your tables are using the InnoDB engine."
+msgstr "Toutes vos tables utilisent le moteur InnoDB."
+
+#: settings.php:164
+msgid ""
+"The following tables are using old MyISAM engines. You should consider "
+"updating them to a InnoDB engine (MySQL 5.6.4 or higher)."
+msgstr ""
+"Les tables suivantes utilisent de vieux moteurs MyISAM. Vous devriez "
+"envisager de les mettre à jour à un moteur InnoDB (MySQL 5.6.4 ou "
+"supérieurs)."
+
+#: settings.php:170
+msgid "Update to InnoDB now."
+msgstr "Mettre à jour vers InnoDB maintenant."
+
+#: settings.php:179
+msgid "Your options table would benefit from an additional index."
+msgstr "Votre tables options bénéficierait d’un index supplémentaire."
+
+#: settings.php:180
+msgid "Add index to options table now"
+msgstr "Ajouter l’index à la table options maintenant"
+
+#: settings.php:183 settings.php:200
+msgid "Your options table does not require an additional index."
+msgstr "Votre table options ne nécessite pas d’index supplémentaire."
+
+#: settings.php:196
+msgid "Your postmeta table would benefit from an additional index."
+msgstr "Votre table postmeta bénéficierait d’un index supplémentaire."
+
+#: settings.php:197
+msgid "Add index to postmeta table now"
+msgstr "Ajouter l’index à la table postmeta maintenant"
+
+#: settings.php:203
+msgid "Clean up the database now"
+msgstr "Nettoyer la base de données maintenant"
+
+#. Description of the plugin/theme
+msgid ""
+"Remove unnecessary add-ons and tweak your database to improve website speed"
+msgstr ""
+"Supprimer les modules inutiles et optimiser la base de données pour "
+"améliorer la vitesse du site Web"
+
+#. Author of the plugin/theme
+msgid "Carl Conrad"
+msgstr "Carl Conrad"
+
+#. Author URI of the plugin/theme
+msgid "https://carlconrad.net"
+msgstr "https://carlconrad.net"
